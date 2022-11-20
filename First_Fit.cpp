@@ -37,7 +37,7 @@ int main()
     for (i = 0; i < bno; i++)
     {
         cout << i + 1 << "\t\t" << bsize[i] << "\t\t";
-        if (flags[i] = 1)
+        if (flags[i] == 1)
             cout << allocation[i] + 1 << "\t\t" << psize[allocation[i]] << endl;
 
         else
