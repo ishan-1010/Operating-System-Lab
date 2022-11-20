@@ -33,8 +33,8 @@ void findAVG(int processes[], int n, int bt[])
         cout << i + 1 << "\t\t" << bt[i] << "\t\t" << wt[i] << "\t\t" << tat[i] << endl;
     }
 
-    cout << "Avg WT: " << float(total_wt) / (float)n << endl;
-    cout << "AvgTAT: " << float(total_tat) / (float)n << endl;
+    cout << "Avg WT: " << (float)total_wt / n << endl;
+    cout << "AvgTAT: " << (float)total_tat / n << endl;
 }
 
 int main()
